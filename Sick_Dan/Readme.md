@@ -1,1 +1,1 @@
-This program need data.txt loacate in upper folder
+This program need data.txt loacates in upper folder
