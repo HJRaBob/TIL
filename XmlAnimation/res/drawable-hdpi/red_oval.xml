@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" > <!-- 모양 : 원 -->
+    
+    <solid android:color="#f00"/>  <!-- solid:색 채움, F00:각각 RGB값, F=255 -->
+	<size android:width="200dp"
+	    android:height="200dp"/> <!-- size조절 폭과 높이 각각 조절 -->
+</shape>

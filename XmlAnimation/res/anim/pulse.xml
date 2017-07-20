@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:duration="5000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:toXScale=".25"
+        android:toYScale=".25"
+        /> <!-- 크기를 1/4로 줄인다 -->
+	<scale android:startOffset="5000"
+	    android:duration="5000"
+	    android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:toXScale="4.0"
+        android:toYScale="4.0"
+	    /> <!-- startoffset : 크기가 줄어드는 시간(5초)동안 기다린다
+	    		1/4되었던 이미지를 다시 4배확장(원본크기가 됨)시킨다 -->
+</set>

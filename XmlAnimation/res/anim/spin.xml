@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate android:fromDegrees="0"
+        android:toDegrees="-1440"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="10000"
+        />
+    	<!-- 0도부터 -1440도까지 회전(4바퀴) -->
+        <!-- pivot 회전의 중심 -->
+        <!-- duration 몇초동안 돌것인가(1000 = 1초) -->
+        
+</set>
