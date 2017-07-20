@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:fillAfter="true"
+    >
+    <!-- accelerate_interpolator :  
+    	 decelerate_interpolator : 
+    	 accelerater_declerate_interpolator:
+    	 anticipate_interpolator : in start point
+    	 overshoot_interpolator : in finish point
+    	 anticipate_overshoot_interpolator : from start point to finish poit
+    	 bounce_interpolator : in finish point
+    	 -->    
+    	 <!-- fillAgter when animation end stay this state -->
+    <translate android:duration="500"
+        android:fromXDelta="100%"
+        android:toXDelta="0%"
+        android:repeatCount="0"
+        /> <!-- fromXDelta - move only x axis right to left-->
+
+</set>
