@@ -1,1 +1,1 @@
-This program needs data.txt loacates in upper folder
+This program requires data.txt from parent directory
