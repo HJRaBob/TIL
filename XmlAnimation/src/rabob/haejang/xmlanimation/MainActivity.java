@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		iv1 = (ImageView)findViewById(R.id.imageView1);
 		iv1.setImageResource(R.drawable.roidragon);
 		Animation an = AnimationUtils.loadAnimation(this, R.anim.spin); //anim에  에 있는 XML 파일 담당하는 객체 Animation
-		iv1.startAnimation(an); //에니메이션 적용 
+		iv1.startAnimation(an); //에니메이션 (ImageView에)적용 
 		
 		iv2 = (ImageView)findViewById(R.id.imageView2);
 		iv2.setImageResource(R.drawable.red_oval);

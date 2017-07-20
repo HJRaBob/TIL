@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval" > <!-- 모양 : 원 -->
+    android:shape="oval" >  <!-- xmlns : shape가 어떻게 동작할지 정보를 가지고 있는 URL-->
+    						<!-- 모양 : 원 -->
     
     <solid android:color="#f00"/>  <!-- solid:색 채움, F00:각각 RGB값, F=255 -->
 	<size android:width="200dp"
